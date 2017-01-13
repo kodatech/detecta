@@ -65,4 +65,5 @@ function onDeviceReady() {
 
     function segment_assign(){
       window.plugins.OneSignal.sendTag("Segment", "Customer_2"); 
+      alert("hi2");
     }
