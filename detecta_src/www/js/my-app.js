@@ -14,6 +14,7 @@ var mainView = myApp.addView('.view-main', {
 // Handle Cordova Device Ready Event
 $$(document).on('deviceready', function() {
     console.log("Device is ready!");
+    onDeviceReady();
 });
 
 
@@ -41,3 +42,27 @@ $$(document).on('pageInit', '.page[data-page="about"]', function (e) {
     // Following code will be executed for page with data-page attribute equal to "about"
     myApp.alert('Here comes About page');
 })
+
+function onDeviceReady() {
+        alert("hi");
+        // Enable to debug issues.
+          // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+          
+          var notificationOpenedCallback = function(jsonData) {
+            console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+          };
+          window.plugins.OneSignal
+            .startInit("933b8ea9-4bd9-4acf-84e1-7d7fcdb4c784", "144953997036")
+            .handleNotificationOpened(notificationOpenedCallback)
+            .endInit();
+          
+          // Sync hashed email if you have a login system or collect it.
+          //   Will be used to reach the user at the most optimal time of day.
+          // window.plugins.OneSignal.syncHashedEmail(userEmail); 
+          segment_assign();
+          
+    }
+
+    function segment_assign(){
+      window.plugins.OneSignal.sendTag("Segment", "Customer_2"); 
+    }
