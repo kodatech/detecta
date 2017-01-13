@@ -83,6 +83,14 @@
         <splash src="res/screen/ios/Default~iphone.png" platform="ios" width="320" height="480" />
     </platform>
 
-    
+    <project-root>locales/android/drawable-hdpi/</project-root>
+    <project-root>locales/android/drawable-hdpi-v11/</project-root>
+    <project-root>locales/android/drawable-mdpi/</project-root>
+    <project-root>locales/android/drawable-mdpi-v11/</project-root>
+    <project-root>locales/android/drawable-xhdpi/</project-root>
+    <project-root>locales/android/drawable-xhdpi-v11/</project-root>
+    <project-root>locales/android/ddrawable-xxhdpi/</project-root>
+    <project-root>locales/android/drawable-xxhdpi-v11/</project-root>
+    <project-root>locales/android/drawable-xxxhdpi-v11/</project-root>
 
 </widget>
