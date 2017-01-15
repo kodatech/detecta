@@ -33,7 +33,7 @@
     <!-- Uncomment to use the latest, fastest iOS WebView (see this post http://devgirl.org/2016/01/11/a-faster-hybrid-app-for-the-new-year/) -->
     <!--<plugin name="cordova-plugin-wkwebview-engine" spec="~1.0.1" />-->
 
-    <icon src="icon.png" />
+    
     <platform name="android">
         <icon src="res/icon/android/drawable-ldpi-icon.png" density="ldpi" />
         <icon src="res/icon/android/drawable-mdpi-icon.png" density="mdpi" />
