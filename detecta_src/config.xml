@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.devgirl.framework7.mediaexplorer" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>com.phonegap.framework7.base</name>
+    <name>Detecta</name>
     <description>
         Detecta
     </description>
@@ -83,14 +83,14 @@
         <splash src="res/screen/ios/Default~iphone.png" platform="ios" width="320" height="480" />
     </platform>
 
-   <!-- <project-root>locales/android/drawable-hdpi/</project-root>
-    <project-root>detecta_src/locales/android/drawable-hdpi-v11/</project-root>
-    <project-root>detecta_src/locales/android/drawable-mdpi/</project-root>
-    <project-root>detecta_src/locales/android/drawable-mdpi-v11/</project-root>
-    <project-root>detecta_src/locales/android/drawable-xhdpi/</project-root>
-    <project-root>detecta_src/locales/android/drawable-xhdpi-v11/</project-root>
-    <project-root>detecta_src/locales/android/ddrawable-xxhdpi/</project-root>
-    <project-root>detecta_src/locales/android/drawable-xxhdpi-v11/</project-root>
-    <project-root>detecta_src/locales/android/drawable-xxxhdpi-v11/</project-root>-->
+    <project-root>res/icon/android/drawable-hdpi/</project-root>
+    <project-root>res/icon/android/drawable-hdpi-v11/</project-root>
+    <project-root>res/icon/android/drawable-mdpi/</project-root>
+    <project-root>res/icon/android/drawable-mdpi-v11/</project-root>
+    <project-root>res/icon/android/drawable-xhdpi/</project-root>
+    <project-root>res/icon/android/drawable-xhdpi-v11/</project-root>
+    <project-root>res/icon/android/ddrawable-xxhdpi/</project-root>
+    <project-root>res/icon/android/drawable-xxhdpi-v11/</project-root>
+    <project-root>res/icon/android/drawable-xxxhdpi-v11/</project-root>
 
 </widget>
