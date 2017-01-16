@@ -44,7 +44,7 @@ $$(document).on('pageInit', '.page[data-page="about"]', function (e) {
 })
 
 function onDeviceReady() {
-        alert("hi");
+        //alert("hi");
         // Enable to debug issues.
           // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
           
@@ -65,5 +65,5 @@ function onDeviceReady() {
 
     function segment_assign(){
       window.plugins.OneSignal.sendTag("Segment", "Customer_1"); 
-      alert("hi2");
+      //alert("hi2");
     }
