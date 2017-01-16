@@ -13,3 +13,24 @@
 .statusbar-overlay {
     background: #000000;
 }
+
+
+
+.icon-watch {
+	background: url(../img/icon-watch.png) no-repeat center;
+	width: 25px;
+	height: 25px;
+	background-size: 25px auto;
+}
+
+.panel {
+	background: #fff;
+}
+
+.panel div.center.sliding {
+	background: black;
+}
+
+.panel div.center.sliding img{
+	width: 50%;
+}
