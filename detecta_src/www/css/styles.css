@@ -34,3 +34,25 @@
 .panel div.center.sliding img{
 	width: 50%;
 }
+
+.story-comments .messages {
+	padding-bottom: 20px;
+}
+.story-comments .messages > .preloader {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left: 50%;
+	margin-left: -16px;
+	top: 20px;
+}
+.story-comments .preloader-label {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.story-comments .message {
+	max-width: 98%;
+}
