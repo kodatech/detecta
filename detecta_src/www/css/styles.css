@@ -94,3 +94,10 @@
 .story-comments .message {
 	max-width: 98%;
 }
+
+.story-comments .message-text {
+	font-size: 12px;
+	background: #fff;
+	color: #000;
+	line-height: 0.5;
+}
