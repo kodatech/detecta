@@ -43,6 +43,8 @@
         dynamicNavbar: true
     });
 
+    alert("hi");
+
     function checkSplitView() {
         var activeStoryLink;
         if ($$(window).width() < 767) {
