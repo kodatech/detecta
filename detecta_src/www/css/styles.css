@@ -107,7 +107,7 @@
 	line-height: 0.5;
 }
 
-.item-text .message {
+.item-text.message {
 	font-size: 13px;
 	color: #8c8c8c;
 	line-height: 0.5;
