@@ -107,3 +107,9 @@
 	line-height: 0.5;
 }
 
+.item-text .message-title {
+	font-size: 12px;
+	color: #8c8c8c;
+	line-height: 0.5;
+}
+
