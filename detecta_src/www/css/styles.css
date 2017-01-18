@@ -175,7 +175,7 @@ a.tab-link {
 }
 
 .navbar, .toolbar {
-    height: 44px;
+    height: 70px;
     width: 100%;
     box-sizing: border-box;
     font-size: 10px;
@@ -186,7 +186,7 @@ a.tab-link {
     backface-visibility: hidden;
 }
 .fa {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 
