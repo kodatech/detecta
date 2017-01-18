@@ -228,8 +228,17 @@ a.tab-link {
     background-color: white;
 }
 
-.swipeout-content .fa {
+.server .swipeout-content .fa {
 	left: 6px;
+	top:45%;
+	align-items: center;
+	font-size: 15px;
+	position: absolute;
+	color: #ffdf30;
+}
+
+.notification .swipeout-content .fa {
+	right: 6px;
 	top:45%;
 	align-items: center;
 	font-size: 15px;
