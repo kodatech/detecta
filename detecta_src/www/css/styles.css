@@ -185,8 +185,12 @@ a.tab-link {
     
     backface-visibility: hidden;
 }
-.fa {
+.toolbar-inner .fa {
 	font-size: 30px;
+}
+
+.navbar-inner .fa {
+	font-size: 25px;
 }
 
 
