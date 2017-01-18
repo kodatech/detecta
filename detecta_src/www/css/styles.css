@@ -62,7 +62,7 @@
 .story-info {
 	color: #8e8e93;
 }
-.story-comments {
+.notification {
 	position: relative;
 	height: -moz-calc(100% - 130px);
 	height: -ms-calc(100% - 130px);
@@ -73,10 +73,10 @@
 	-webkit-overflow-scrolling: touch;
 }
 
-.story-comments .messages {
+.notification .messages {
 	padding-bottom: 20px;
 }
-.story-comments .messages > .preloader {
+.notification .messages > .preloader {
 	position: absolute;
 	width: 32px;
 	height: 32px;
@@ -84,24 +84,24 @@
 	margin-left: -16px;
 	top: 20px;
 }
-.story-comments .preloader-label {
+.notification .preloader-label {
 	position: absolute;
 	top: 60px;
 	left: 0;
 	width: 100%;
 	text-align: center;
 }
-.story-comments .message {
+.notification .message {
 	max-width: 98%;
 }
 
-.story-comments .message-text {
+.notification .message-text {
 	font-size: 12px;
 	color: #4d4d4d;
 	line-height: 0.5;
 }
 
-.story-comments .message-title {
+.notification .message-title {
 	font-size: 12px;
 	color: #8c8c8c;
 	line-height: 0.5;
@@ -195,6 +195,11 @@ a.tab-link {
 
 .server .swipeout-content{
 	padding-left: 15px;
+	position: relative;
+}
+
+.notification .swipeout-content{
+	padding-right: 15px;
 	position: relative;
 }
 
