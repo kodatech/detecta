@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
     <link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
 
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Detecta</title>
@@ -54,37 +56,37 @@
                 <div class="list-group">
                     <ul>
                         <li class="item-content list-panel-all close-panel item-link">
-                            <div class="item-media"><i class="icon ion-ios7-paper"></i></div>
+                            <div class="item-media"><i class="fa fa-building" aria-hidden="true"></i></div>
                             <div class="item-inner">
                                 <div class="item-title">All Servers</div>
                             </div>
                         </li>
                         <li class="item-content list-panel-favorites close-panel item-link">
-                            <div class="item-media"><i class="icon ion-ios7-star"></i></div>
+                            <div class="item-media"><i class="fa fa-star-o" aria-hidden="true"></i></div>
                             <div class="item-inner">
                                 <div class="item-title">Favorites</div>
                             </div>
                         </li>
                         <li class="item-content list-panel-favorites close-panel item-link">
-                            <div class="item-media"><i class="icon ion-ios7-star"></i></div>
+                            <div class="item-media"><i class="fa fa-bell" aria-hidden="true"></i></div>
                             <div class="item-inner">
                                 <div class="item-title">Notifications</div>
                             </div>
                         </li>
                         <li class="item-content list-panel-favorites close-panel item-link">
-                            <div class="item-media"><i class="icon ion-ios7-star"></i></div>
+                            <div class="item-media"><i class="fa fa-database" aria-hidden="true"></i></div>
                             <div class="item-inner">
                                 <div class="item-title">Instances</div>
                             </div>
                         </li>
                         <li class="item-content list-panel-favorites close-panel item-link">
-                            <div class="item-media"><i class="icon ion-ios7-star"></i></div>
+                            <div class="item-media"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
                             <div class="item-inner">
                                 <div class="item-title">Rules</div>
                             </div>
                         </li>
                         <li class="item-content list-panel-favorites close-panel item-link">
-                            <div class="item-media"><i class="icon ion-ios7-star"></i></div>
+                            <div class="item-media"><i class="fa fa-user-circle" aria-hidden="true"></i></div>
                             <div class="item-inner">
                                 <div class="item-title">Users</div>
                             </div>
@@ -109,7 +111,7 @@
                           Right link contains only icon - additional "icon-only" class
                           Additional "open-panel" class tells app to open panel when we click on this link
                         -->
-                        <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+                        <a href="#" class="link icon-only open-panel"><i class="fa fa-bars" aria-hidden="true"></i></a>
                     </div>
                     
                     <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
@@ -301,13 +303,28 @@
                 </div>
             </div>
             <!-- Bottom Toolbar-->
-            <!--<div class="toolbar">-->
-                <!--<div class="toolbar-inner">-->
-                    <!-- Toolbar links -->
-                    <!--<a href="#" class="link">Link 1</a>-->
-                    <!--<a href="#" class="link">Link 2</a>-->
-                <!--</div>-->
-            <!--</div>-->
+            <div class="toolbar">
+                <div class="toolbar-inner">
+                    <a href="#homeView" class="tab-link active">
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                        <span class="tabbar-label i18n" data-i18n="index.tweet">Notifications</span>
+                    </a>
+
+                    <a href="#contactView" class="tab-link">
+                        <i class="fa fa-building" aria-hidden="true"></i>
+                        <span class="tabbar-label i18n" data-i18n="index.contacts">Servers</span>
+                    </a>
+
+                    <a href="#settingView" class="tab-link">
+                        <i class="fa fa-database" aria-hidden="true"></i>
+                        <span class="tabbar-label i18n">Instances</span>
+                    </a>
+                    <a href="#settingView" class="tab-link">
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <span class="tabbar-label i18n">Favorites</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <script src="lib/moment.js"></script>
