@@ -45,6 +45,7 @@
 	box-sizing: border-box;
 	padding: 20px 15px;
 	background: #fff;
+    padding-top: 20px;
 }
 .story-title {
 	font-size: 17px;
