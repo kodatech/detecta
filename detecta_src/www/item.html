@@ -39,9 +39,23 @@
           </div>
           <a href="#" class="searchbar-cancel">Cancel</a>
       </form>
+      <div class="page-content pull-to-refresh-content">
+      <div class="pull-to-refresh-layer">
+        <div class="preloader"></div>
+        <div class="pull-to-refresh-arrow"></div>
+      </div>
 
-      <div class="notification">
-        <div class="list-block media-list stories-list list-block-search searchbar-found">
+      <!-- Search bar overlay-->
+      <div class="searchbar-overlay"></div>
+
+      <!-- no result -->
+      <div class="content-block searchbar-not-found">
+        Nothing found
+      </div>
+
+      <div class="list-block media-list stories-list list-block-search searchbar-found">
+        <div class="notification">
+        
           <ul>
             <li class="swipeout">
               <div class="swipeout-content" >
@@ -132,8 +146,13 @@
               </div>
             </li>
           </ul>
-        </div>
+        
       </div>
+
+      </div>
+    </div>
+
+      
       
     </div>
   </div>
