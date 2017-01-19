@@ -43,9 +43,9 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 20px 15px;
+	padding: 50px 10px 15px;
 	background: #fff;
-    padding-bottom: 1px;
+
 }
 .story-title {
 	font-size: 17px;
