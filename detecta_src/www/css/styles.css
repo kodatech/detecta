@@ -175,7 +175,7 @@ a.tab-link {
 }
 
 .navbar, .toolbar {
-    height: 70px;
+    
     width: 100%;
     box-sizing: border-box;
     font-size: 10px;
@@ -186,11 +186,11 @@ a.tab-link {
     backface-visibility: hidden;
 }
 .toolbar-inner .fa {
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .navbar-inner .fa {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .server .swipeout-content{
@@ -246,4 +246,19 @@ a.tab-link {
 	color: #ffdf30;
 }
 
+.navbar-through .page-content {
+    padding-top: 0px;
+}
+
+.list-block {
+    margin: 0px;
+    
+}
+
+.content-block {
+    margin: 0px;
+    padding: 0px;
+    color: #6d6d72;
+    box-sizing: border-box;
+}
 
